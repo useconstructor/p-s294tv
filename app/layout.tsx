@@ -49,7 +49,7 @@ export default function RootLayout({
           process.env.NEXT_PUBLIC_PROJECT_ID && (
             <script src={"https://constructor-api-git-fix-two-projects-ai-p-5c3f22-useconstructor.vercel.app/v1/projects/P-S294TV/analytics/script.js"} defer></script>
           )}
-      <script src="/constructor-editor.js" defer></script></body>
+      <script src="/constructor-editor.js" defer></script><script src="/constructor-brand-identity.js" defer></script></body>
     </html>
   );
 }
