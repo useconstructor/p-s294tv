@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "tables": {
+    "productos": {
+      "columns": [
+        "nombre",
+        "stock",
+        "precio_centimos",
+        "categoria_id",
+        "id",
+        "propietario",
+        "version",
+        "created_at",
+        "updated_at"
+      ],
+      "hidden": [
+        "id",
+        "propietario",
+        "version",
+        "created_at",
+        "updated_at"
+      ],
+      "pageSize": 10
+    },
+    "categorias": {
+      "columns": [
+        "nombre",
+        "id",
+        "propietario"
+      ],
+      "hidden": [
+        "id",
+        "propietario"
+      ],
+      "pageSize": 10
+    }
+  }
+}
