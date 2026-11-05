@@ -3,8 +3,8 @@
   "tables": {
     "categorias": {
       "columns": [
-        "id",
         "nombre",
+        "id",
         "propietario"
       ],
       "hidden": [],
