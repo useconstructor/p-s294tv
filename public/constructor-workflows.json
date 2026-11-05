@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "workflows": [
+    {
+      "id": "categorias",
+      "name": "Consultar categorías",
+      "description": "Lectura del inventario de la sesión actual.",
+      "endpoint": "/api/categorias",
+      "method": "GET",
+      "input": {}
+    },
+    {
+      "id": "productos",
+      "name": "Consultar productos",
+      "description": "Lectura del inventario de la sesión actual.",
+      "endpoint": "/api/productos",
+      "method": "GET",
+      "input": {}
+    },
+    {
+      "id": "consultar_resumen",
+      "name": "Consultar métricas",
+      "description": "Lectura del inventario de la sesión actual.",
+      "endpoint": "/api/resumen",
+      "method": "GET",
+      "input": {}
+    }
+  ]
+}

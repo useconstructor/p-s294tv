@@ -1,7 +1,4 @@
-export default function Home() {
-  return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Constructor Template</h1>
-    </main>
-  );
+import Inventory from "@/components/inventory";
+export default function Dashboard() {
+  return <Inventory page="dashboard" />;
 }

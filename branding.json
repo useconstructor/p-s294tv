@@ -1,0 +1,925 @@
+{
+  "primaryColor": "#125563",
+  "secondaryColor": "#FFFFFF",
+  "backgroundColor": "#F4F7F7",
+  "textColor": "#172F35",
+  "accentColor": "#125563",
+  "fontHeading": "IBM Plex Sans",
+  "fontBody": "IBM Plex Sans",
+  "borderRadius": "0.25rem",
+  "logoText": "Almacén Nube",
+  "logoImageUrl": null,
+  "tone": "professional",
+  "brandbook": {
+    "version": 1,
+    "origin": "proposed",
+    "researchStatus": "not_requested",
+    "tokenSemanticsVersion": 1,
+    "positioning": "Herramienta interna de inventario para un taller ficticio: nombres, existencias y acciones claras, con registros persistidos y confirmaciones fiables. No es una marca comercial abierta al público.",
+    "voice": "Español directo, operativo y sereno. Acciones concretas como Nuevo producto, Editar, Eliminar y Reintentar. Distinguir borrador, envío pendiente, resultado incierto y confirmación sin lenguaje promocional ni falsas garantías.",
+    "motif": "Tres trazos apilados derivados de las líneas de un registro de existencias. La marca petróleo de la fila activa prolonga esta lógica de registro y vincula el producto con su editor; no convertir el motivo en patrón decorativo.",
+    "sources": [
+      "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    ],
+    "colors": [
+      {
+        "role": "background",
+        "name": "Clear Workspace",
+        "hex": "#F4F7F7"
+      },
+      {
+        "role": "surface",
+        "name": "Paper",
+        "hex": "#FFFFFF"
+      },
+      {
+        "role": "accent",
+        "name": "Petrol Signal",
+        "hex": "#125563"
+      },
+      {
+        "role": "text",
+        "name": "Ink",
+        "hex": "#172F35"
+      },
+      {
+        "role": "muted",
+        "name": "Deep Petrol",
+        "hex": "#103D47"
+      }
+    ],
+    "fontFaces": [
+      {
+        "family": "IBM Plex Sans",
+        "weight": "400",
+        "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llzAA.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "IBM Plex Sans",
+        "weight": "500",
+        "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD2FlzAA.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "IBM Plex Sans",
+        "weight": "600",
+        "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDNF5zAA.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "IBM Plex Sans",
+        "weight": "700",
+        "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDDV5zAA.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      }
+    ],
+    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><g fill=\"#125563\"><rect x=\"32\" y=\"40\" width=\"96\" height=\"16\" rx=\"4\"/><rect x=\"32\" y=\"72\" width=\"96\" height=\"16\" rx=\"4\"/><rect x=\"32\" y=\"104\" width=\"96\" height=\"16\" rx=\"4\"/></g></svg>",
+    "pages": [
+      {
+        "title": "Brand guidelines",
+        "summary": "Herramienta interna de inventario para un taller ficticio: nombres, existencias y acciones claras, con registros persistidos y confirmaciones fiables. No es una marca comercial abierta al público.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario del taller"
+          },
+          {
+            "title": "Guía de identidad",
+            "text": "Registro claro. Existencias visibles. Acciones concretas."
+          }
+        ],
+        "id": "brand-page-1",
+        "layout": "cover"
+      },
+      {
+        "title": "The Brand",
+        "summary": "Introduce the identity with one operational statement, not a promotional hero. Use a Petrol Signal divider and generous space around the heading.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Nombres, existencias y acciones en un mismo registro."
+          },
+          {
+            "title": "Section treatment",
+            "text": "Use white text on #125563. Keep the symbol inside its white support surface rather than recoloring it."
+          }
+        ],
+        "id": "brand-page-2",
+        "layout": "divider"
+      },
+      {
+        "title": "Welcome",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "title": "Project foundation",
+            "text": "Preserve the supplied name, petrol palette, IBM Plex Sans and three-line register motif."
+          },
+          {
+            "title": "Reading this guide",
+            "text": "Rules are in English; interface specimens remain in Spanish. Fictional seed products and prices are demonstration content."
+          }
+        ],
+        "id": "brand-page-3",
+        "layout": "content"
+      },
+      {
+        "title": "Index",
+        "summary": "Read from identity to applications. Keep this contents page compact, with page numbers aligned in a narrow column and section names set at medium weight.",
+        "examples": [
+          {
+            "title": "Identity · 05–15",
+            "text": "Definition, project intent, voice and logo construction."
+          },
+          {
+            "title": "Visual system · 16–29",
+            "text": "Typography, layouts, colors, graphic elements and image-free direction."
+          },
+          {
+            "title": "Applications · 30–49",
+            "text": "Design studies for the inventory interface, workshop materials and support."
+          }
+        ],
+        "id": "brand-page-4",
+        "layout": "content"
+      },
+      {
+        "title": "Defining",
+        "summary": "Describe Almacén Nube as an internal inventory tool, not a shop or public marketplace. Lead with the task and keep supporting copy to one short sentence.",
+        "examples": [
+          {
+            "title": "Inventario del taller",
+            "text": "Consulta productos, comprueba existencias y actualiza el registro."
+          },
+          {
+            "title": "Scope language",
+            "text": "Use Dashboard and Productos as navigation labels. Do not introduce Tienda, Pedidos or payment language."
+          }
+        ],
+        "id": "brand-page-5",
+        "layout": "content"
+      },
+      {
+        "title": "Project Intent",
+        "summary": "Express the supplied project goal rather than inventing a corporate mission: make saved inventory easy to read and product changes explicit. Avoid absolute reliability claims.",
+        "examples": [
+          {
+            "title": "Working intent",
+            "text": "Keep the product name visible from selection through editing, conflict and confirmation."
+          },
+          {
+            "title": "Operational copy",
+            "text": "Consulta las existencias guardadas antes de actualizar un producto."
+          }
+        ],
+        "id": "brand-page-6",
+        "layout": "content"
+      },
+      {
+        "title": "Working Principles",
+        "summary": "Translate project priorities into visible behavior: readable records, explicit actions and honest status. Treat these as design principles, not claims about a real company's values.",
+        "examples": [
+          {
+            "title": "Clarity",
+            "text": "Show Nombre, Categoría, Stock and Precio together; never hide price or actions behind an unexplained icon."
+          },
+          {
+            "title": "Honest status",
+            "text": "Use Resultado sin confirmar when a response is lost. Reserve Producto actualizado for a confirmed save."
+          },
+          {
+            "title": "Continuity",
+            "text": "Keep the draft visible after validation errors and retain the product name during recovery."
+          }
+        ],
+        "id": "brand-page-7",
+        "layout": "content"
+      },
+      {
+        "title": "Tone of Voice",
+        "summary": "Write direct, calm Spanish. Start actions with verbs, name the affected product and distinguish pending work from confirmed results. Avoid celebration, blame and vague technical errors.",
+        "examples": [
+          {
+            "title": "Action",
+            "text": "Nuevo producto · Editar · Eliminar · Reintentar"
+          },
+          {
+            "title": "Validation",
+            "text": "Introduce un stock entero igual o mayor que cero."
+          },
+          {
+            "title": "Uncertain result",
+            "text": "Resultado sin confirmar. Recupera el resultado antes de volver a enviar cambios."
+          }
+        ],
+        "id": "brand-page-8",
+        "layout": "content"
+      },
+      {
+        "title": "Logo",
+        "summary": "Introduce the logo section with the symbol and name as separate elements. The three stacked strokes refer to inventory lines; do not turn them into a cloud illustration.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Three register lines beside a clear typographic name."
+          },
+          {
+            "title": "Divider composition",
+            "text": "Place the supported symbol above a short heading on petrol. Leave the remainder of the page quiet."
+          }
+        ],
+        "id": "brand-page-9",
+        "layout": "divider"
+      },
+      {
+        "title": "Logo Overview",
+        "summary": "Use one canonical symbol: three equal horizontal strokes with regular spacing. Pair it with live IBM Plex Sans typography so the name stays sharp, editable and accessible.",
+        "examples": [
+          {
+            "title": "Canonical geometry",
+            "text": "On the 160-unit canvas, strokes are 96 × 16 units at x32 and y40, y72, y104, with 4-unit corner radii."
+          },
+          {
+            "title": "Name treatment",
+            "text": "Almacén Nube retains its accent, capitalization and natural letter spacing. Never embed the name inside the symbol SVG."
+          }
+        ],
+        "id": "brand-page-10",
+        "layout": "logo"
+      },
+      {
+        "title": "Primary Logo",
+        "summary": "Place the symbol left of Almacén Nube in IBM Plex Sans 600. Align the visible strokes optically with the lettering; use Ink for the name and Petrol Signal for the symbol.",
+        "examples": [
+          {
+            "title": "Navigation lockup",
+            "text": "Use a 40 px symbol canvas, a 12 px gap and a 20 px name on the white desktop navigation surface."
+          },
+          {
+            "title": "Compact lockup",
+            "text": "At phone width, use a 32 px symbol canvas with an 18 px name. Preserve the full Almacén Nube spelling."
+          }
+        ],
+        "id": "brand-page-11",
+        "layout": "logo"
+      },
+      {
+        "title": "Logo Safezone",
+        "summary": "Use one stroke thickness as the minimum clear space around the visible symbol and complete lockup. Increase breathing room in covers and signs; never fill the space with controls.",
+        "examples": [
+          {
+            "title": "Symbol spacing",
+            "text": "One unit of clear space equals 16 units in the master drawing. The canonical canvas already provides at least this margin."
+          },
+          {
+            "title": "Navigation spacing",
+            "text": "Keep Dashboard and Productos below the lockup, outside its clear space, rather than attaching them to the name."
+          }
+        ],
+        "id": "brand-page-12",
+        "layout": "logo"
+      },
+      {
+        "title": "Logo Color Combinations",
+        "summary": "Keep the symbol geometry and petrol fill unchanged. On dark or petrol backgrounds, use a white support surface; set the separate name in white.",
+        "examples": [
+          {
+            "title": "Light application",
+            "text": "White surface, #125563 symbol and #172F35 Almacén Nube lettering."
+          },
+          {
+            "title": "Dark application",
+            "text": "Ink background, white symbol support and white lettering. Do not place the petrol strokes directly on Ink."
+          }
+        ],
+        "id": "brand-page-13",
+        "layout": "colors"
+      },
+      {
+        "title": "Brandmark",
+        "summary": "Use the standalone mark only where the surrounding context identifies Almacén Nube. Preserve all three strokes and their internal spacing at every size.",
+        "examples": [
+          {
+            "title": "Application icon",
+            "text": "Center the canonical mark on a white square. Retain the full 160-unit canvas rather than cropping tightly to the strokes."
+          },
+          {
+            "title": "Small-size rule",
+            "text": "Use the symbol without lettering at 16–32 px. Keep the bars crisp; do not add outlines, shadows or small interior details."
+          }
+        ],
+        "id": "brand-page-14",
+        "layout": "logo"
+      },
+      {
+        "title": "Logo Misuse",
+        "summary": "Do not stretch, rotate, outline or decorate the mark. Never replace the exact name with an abbreviation or use the three strokes as an unlabeled navigation control.",
+        "examples": [
+          {
+            "title": "Name integrity",
+            "text": "Correct: Almacén Nube. Incorrect: Almacen Nube, ALMACÉN-NUBE or AN inside a box."
+          },
+          {
+            "title": "Symbol integrity",
+            "text": "Do not turn the strokes into a cloud, barcode, hamburger button or repeated wallpaper."
+          }
+        ],
+        "id": "brand-page-15",
+        "layout": "logo"
+      },
+      {
+        "title": "Typography",
+        "summary": "Use IBM Plex Sans throughout the identity. Introduce the section with a Spanish operational headline and a short supporting line, not a font catalog.",
+        "examples": [
+          {
+            "title": "Inventario del taller",
+            "text": "Consulta productos y comprueba las existencias guardadas."
+          },
+          {
+            "title": "Section composition",
+            "text": "Set the specimen left aligned. Use one strong heading and regular body text with no decorative letter spacing."
+          }
+        ],
+        "id": "brand-page-16",
+        "layout": "divider"
+      },
+      {
+        "title": "Typography Overview",
+        "summary": "Build recognition through one family, clear weight changes and stable number alignment. Keep Spanish accents intact and avoid condensed, italic or all-capital interface labels.",
+        "examples": [
+          {
+            "title": "Productos",
+            "text": "Busca por nombre o filtra por categoría."
+          },
+          {
+            "title": "Numeric treatment",
+            "text": "Use tabular figures for Stock and Precio. Align numeric columns right and names left."
+          }
+        ],
+        "id": "brand-page-17",
+        "layout": "type"
+      },
+      {
+        "title": "Primary Typeface",
+        "summary": "IBM Plex Sans is the planned heading and body family. Supplied distributable files cover 400, 500, 600 and 700; use local font assets. Any temporary system fallback is not the brand typeface.",
+        "examples": [
+          {
+            "title": "Nuevo producto",
+            "text": "Introduce el nombre, la categoría, el stock y el precio."
+          },
+          {
+            "title": "Character specimen",
+            "text": "Almacén Nube · Categoría · Rodamiento pequeño · 310,40 €"
+          }
+        ],
+        "id": "brand-page-18",
+        "layout": "type"
+      },
+      {
+        "title": "Weights & Styles",
+        "summary": "Use 400 for body text, 500 for actions and 600 for UI headings and the name. Reserve the supplied 700 rendering weight for manual headings; do not apply it to every interface label.",
+        "examples": [
+          {
+            "title": "Guardar cambios",
+            "text": "Revisa los campos antes de guardar."
+          },
+          {
+            "title": "Weight mapping",
+            "text": "Productos: 600. Guardar cambios: 500. Field help: 400. Keep upright styles and natural spacing throughout."
+          }
+        ],
+        "id": "brand-page-19",
+        "layout": "type"
+      },
+      {
+        "title": "Supporting Type",
+        "summary": "Support headings with IBM Plex Sans 400, not a second decorative family. Use Deep Petrol for secondary text and keep essential instructions at readable body size.",
+        "examples": [
+          {
+            "title": "Datos iniciales ficticios",
+            "text": "Los productos y precios iniciales son demostrativos."
+          },
+          {
+            "title": "Small text",
+            "text": "Use 16 px for field help and important status. Reserve 12–14 px for compact metadata; never use border gray for text."
+          }
+        ],
+        "id": "brand-page-20",
+        "layout": "type"
+      },
+      {
+        "title": "Type Hierarchy",
+        "summary": "Set UI titles at 28–32 px/600, body and fields at 16 px/400, and navigation and buttons at 14 px or larger. Keep secondary text at least 12 px.",
+        "examples": [
+          {
+            "title": "Inventario del taller",
+            "text": "Productos: 6 · Unidades: 81 · Sin existencias: 1 · Valor del stock: 310,40 €"
+          },
+          {
+            "title": "Reading order",
+            "text": "Title first, primary action second, metrics or filters next. Use size and spacing before introducing another weight."
+          }
+        ],
+        "id": "brand-page-21",
+        "layout": "type"
+      },
+      {
+        "title": "Layouts",
+        "summary": "Use one work column and a 4/8/12/16/24/32 px spacing scale. Align title, filters and register edges. Desktop navigation is 208 px wide and extends to the document bottom.",
+        "examples": [
+          {
+            "title": "Productos",
+            "text": "Busca un producto y selecciona Editar para actualizarlo."
+          },
+          {
+            "title": "768 px study",
+            "text": "Move navigation above the content. Keep the full table with wrapping names and text actions; limit overlay forms to 560 px."
+          },
+          {
+            "title": "390 px study",
+            "text": "Use a 48 px header, visible 44 px navigation and two 44 px filter rows. Show the start of the list without a floating dock."
+          }
+        ],
+        "id": "brand-page-22",
+        "layout": "applications"
+      },
+      {
+        "title": "Colors",
+        "summary": "Let pale surfaces carry the work and petrol identify action or selection. Use dark text for information; color must never be the only signal of status.",
+        "examples": [
+          {
+            "title": "Everyday pairing",
+            "text": "Clear Workspace #F4F7F7 behind Paper #FFFFFF surfaces, with Ink #172F35 text."
+          },
+          {
+            "title": "Action pairing",
+            "text": "Nuevo producto uses white text on Petrol Signal #125563. Selected navigation also needs a visible shape or marker."
+          }
+        ],
+        "id": "brand-page-23",
+        "layout": "divider"
+      },
+      {
+        "title": "Color Roles",
+        "summary": "Preserve the five supplied palette values. Deep Petrol is the secondary-text color; #70878D is an additional control-boundary token, not muted body text.",
+        "examples": [
+          {
+            "title": "Surface roles",
+            "text": "Clear Workspace #F4F7F7: page. Paper #FFFFFF: table and editor. Ink #172F35: primary reading."
+          },
+          {
+            "title": "Signal roles",
+            "text": "Petrol Signal #125563: actions and selected rows. Deep Petrol #103D47: supporting text and darker action emphasis."
+          },
+          {
+            "title": "Boundary role",
+            "text": "Use #70878D for control edges, targeting at least 3:1 contrast. Do not fade essential borders into the background."
+          }
+        ],
+        "id": "brand-page-24",
+        "layout": "colors"
+      },
+      {
+        "title": "Using Tints",
+        "summary": "Keep brand colors solid in logos, text and controls. A pale petrol overlay may identify a selected row, but its solid marker and text must remain legible without the tint.",
+        "examples": [
+          {
+            "title": "Selected record",
+            "text": "Martillo de carpintero may sit on a 6% petrol overlay over white, with a solid #125563 edge and Ink text."
+          },
+          {
+            "title": "Loading treatment",
+            "text": "Use pale neutral skeletons and Cargando productos… rather than tinted zeros that resemble confirmed data."
+          }
+        ],
+        "id": "brand-page-25",
+        "layout": "colors"
+      },
+      {
+        "title": "Graphic Elements",
+        "summary": "Extend the register motif through straight rules, aligned rows and the active-row marker. Do not multiply the logo into a pattern or add decorative metric cards.",
+        "examples": [
+          {
+            "title": "Continuous metrics",
+            "text": "Separate Productos, Unidades, Sin existencias and Valor del stock with quiet rules inside one continuous band."
+          },
+          {
+            "title": "Editing connection",
+            "text": "Retain the petrol row marker while the editor enters 12 px over 160 ms. With reduced motion, show its final position immediately."
+          }
+        ],
+        "id": "brand-page-26",
+        "layout": "divider"
+      },
+      {
+        "title": "Icons",
+        "summary": "Use simple, consistent line icons alongside Spanish text. Keep Editar and Eliminar visible as words; status icons must reinforce a message, not replace it.",
+        "examples": [
+          {
+            "title": "Named actions",
+            "text": "Visible: Editar. Accessible name: Editar Martillo de carpintero. Keep the interaction target at least 44 px."
+          },
+          {
+            "title": "Status pairing",
+            "text": "Pair an alert icon with Resultado sin confirmar and a recovery action. Never rely on amber alone."
+          }
+        ],
+        "id": "brand-page-27",
+        "layout": "content"
+      },
+      {
+        "title": "Image Policy",
+        "summary": "Use no photography, illustrations or video in the app. Product identity comes from names, categories and numbers. Documentation may show interface studies without adding image slots to products.",
+        "examples": [
+          {
+            "title": "Product presentation",
+            "text": "Martillo de carpintero · Herramientas · 8 unidades · 14,50 €. No thumbnail or decorative tool photograph."
+          },
+          {
+            "title": "Dashboard treatment",
+            "text": "Start with Inventario del taller and the metrics band, not a workshop photograph or promotional banner."
+          }
+        ],
+        "id": "brand-page-28",
+        "layout": "applications"
+      },
+      {
+        "title": "Moodboard",
+        "summary": "Build the visual reference board from typography, ruled records, pale surfaces and petrol marks. Favor legible density over decorative dashboards or atmospheric imagery.",
+        "examples": [
+          {
+            "title": "Material references",
+            "text": "White register sheet, dark readable labels, aligned quantities and three stacked petrol strokes."
+          },
+          {
+            "title": "Composition choice",
+            "text": "Prefer the tabular register. Avoid a permanent master-detail split and isolated metric cards that reduce working space."
+          }
+        ],
+        "id": "brand-page-29",
+        "layout": "applications"
+      },
+      {
+        "title": "Applications",
+        "summary": "The following applications are design studies. Carry the same name, register alignment and calm Spanish voice across screens and optional workshop materials; none adds routes or commercial services.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario del taller"
+          },
+          {
+            "title": "Shared composition",
+            "text": "Lead with the task, retain one primary action and let white space separate groups rather than decorate them."
+          }
+        ],
+        "id": "brand-page-30",
+        "layout": "divider"
+      },
+      {
+        "title": "Profile Icons",
+        "summary": "Design study: use the standalone symbol for a project avatar without implying an active social account. Place it on white and allow circular cropping outside the complete mark.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario interno de taller."
+          },
+          {
+            "title": "Avatar construction",
+            "text": "Center the canonical 160-unit canvas inside the crop. Keep all three strokes visible; omit tiny lettering."
+          }
+        ],
+        "id": "brand-page-31",
+        "layout": "logo"
+      },
+      {
+        "title": "Project Profile",
+        "summary": "Design study: a profile presentation may explain the fictional project, but must not invent handles, followers or contact details. Use a short name-and-description stack.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Proyecto ficticio de inventario para un taller. Dashboard y gestión de productos."
+          },
+          {
+            "title": "Profile layout",
+            "text": "Place the supported symbol beside the exact name. Keep the description below; avoid sales slogans and storefront links."
+          }
+        ],
+        "id": "brand-page-32",
+        "layout": "applications"
+      },
+      {
+        "title": "Square Update Posts",
+        "summary": "Design study: adapt the square-post format for an internal project explainer, not a social campaign. Use one headline and a small register specimen on a pale background.",
+        "examples": [
+          {
+            "title": "Cada producto, en su fila",
+            "text": "Nombre, categoría, stock y precio: los datos necesarios para consultar el inventario."
+          },
+          {
+            "title": "Post composition",
+            "text": "Use 32 px margins, a petrol heading and one sample row. Omit hashtags, promotional offers and invented engagement counts."
+          }
+        ],
+        "id": "brand-page-33",
+        "layout": "applications"
+      },
+      {
+        "title": "Workshop Posters",
+        "summary": "Design study: create an instructional poster with a single task, a short sequence and a small lockup. Keep the format informational rather than promotional.",
+        "examples": [
+          {
+            "title": "Actualiza el registro",
+            "text": "Abre Productos, localiza el nombre y selecciona Editar. Revisa el estado del guardado antes de cerrar."
+          },
+          {
+            "title": "Poster hierarchy",
+            "text": "Set the task largest, instructions at body size and Almacén Nube at the foot. Use petrol rules instead of imagery."
+          }
+        ],
+        "id": "brand-page-34",
+        "layout": "applications"
+      },
+      {
+        "title": "T-shirts & Totes",
+        "summary": "Design study: optional fabric applications use a restrained lockup, not merchandise claims. Prefer light fabric so the canonical petrol mark needs no contrasting patch.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario del taller"
+          },
+          {
+            "title": "Fabric placement",
+            "text": "Use one small chest lockup or one centered tote lockup. Keep lettering separate from the symbol and avoid all-over motifs."
+          }
+        ],
+        "id": "brand-page-35",
+        "layout": "applications"
+      },
+      {
+        "title": "Inventory Folders",
+        "summary": "Design study: translate the packaging chapter into a workshop document folder. Use a ruled label, generous margins and the small lockup; do not suggest shipping or fulfillment.",
+        "examples": [
+          {
+            "title": "Inventario del taller",
+            "text": "Almacén Nube · Documentación de referencia"
+          },
+          {
+            "title": "Folder face",
+            "text": "Place the lockup at the upper left and the document title below. Leave the remaining surface unpatterned."
+          }
+        ],
+        "id": "brand-page-36",
+        "layout": "applications"
+      },
+      {
+        "title": "Workshop Reference Point",
+        "summary": "Design study: identify a place for inventory reference without inventing a physical address or pickup service. Use a task-led label readable at a glance.",
+        "examples": [
+          {
+            "title": "Consulta de inventario",
+            "text": "Almacén Nube · Productos y existencias del taller"
+          },
+          {
+            "title": "Placement treatment",
+            "text": "Use Ink lettering on white with a petrol rule. Do not add an address, opening hours or an unverified QR destination."
+          }
+        ],
+        "id": "brand-page-37",
+        "layout": "applications"
+      },
+      {
+        "title": "Inventory Controls",
+        "summary": "Design study: on /productos, align search, category and stock-zero filters with the register. Use one petrol primary action, text row actions and explicit destructive confirmation.",
+        "examples": [
+          {
+            "title": "Buscar por nombre",
+            "text": "Categoría: Todas · Solo sin existencias · Limpiar filtros"
+          },
+          {
+            "title": "Filter continuity",
+            "text": "Keep q, categoria and sin_existencias=1 in the URL. An unknown category shows an invalid-filter notice until explicitly changed."
+          },
+          {
+            "title": "Eliminar producto",
+            "text": "¿Eliminar Correa de transmisión? Eliminar producto · Cancelar"
+          }
+        ],
+        "id": "brand-page-38",
+        "layout": "applications"
+      },
+      {
+        "title": "Save Confirmation",
+        "summary": "Design study: replace a transaction receipt with the editor's confirmed state. Show server-confirmed fields once in the same panel, then Cerrar. Do not present an uncertain response as success.",
+        "examples": [
+          {
+            "title": "Producto actualizado",
+            "text": "Martillo de carpintero · Herramientas · Stock: 8 · Precio: 14,50 € · Cerrar"
+          },
+          {
+            "title": "Refresh failure",
+            "text": "Producto actualizado. No se pudo actualizar el listado. Reintentar actualización."
+          },
+          {
+            "title": "Uncertain response",
+            "text": "Resultado sin confirmar. Recuperar resultado."
+          }
+        ],
+        "id": "brand-page-39",
+        "layout": "applications"
+      },
+      {
+        "title": "Stock Reference Card",
+        "summary": "Design study: replace a rewards card with a compact stock-reading guide. Use four aligned labels, not points, membership tiers or stamps.",
+        "examples": [
+          {
+            "title": "Lee el inventario",
+            "text": "Productos cuenta registros. Unidades suma stock. Sin existencias cuenta stock cero. Valor del stock suma stock × precio."
+          },
+          {
+            "title": "Demonstration figures",
+            "text": "Initial fictional dataset: 6 products, 81 units, 1 without stock and 310,40 €. Never use these as live values during loading."
+          }
+        ],
+        "id": "brand-page-40",
+        "layout": "applications"
+      },
+      {
+        "title": "Workshop Sign",
+        "summary": "Design study: replace restaurant signage with a quiet inventory identification sign. Use the full name and one descriptive line; do not invent a venue or imply public access.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario interno del taller"
+          },
+          {
+            "title": "Sign treatment",
+            "text": "Use Ink on white, a petrol symbol and generous safe space. On a dark panel, retain the symbol's white support surface."
+          }
+        ],
+        "id": "brand-page-41",
+        "layout": "applications"
+      },
+      {
+        "title": "Inventory Website",
+        "summary": "Design study: exactly two editable Views, / and /productos. Use the dashboard for saved metrics and the product page for management. If Turso is unavailable, show recovery—not a local substitute.",
+        "examples": [
+          {
+            "title": "Inventario del taller",
+            "text": "Datos iniciales ficticios · Nuevo producto · Ver productos sin existencias"
+          },
+          {
+            "title": "Route behavior",
+            "text": "Nuevo producto opens /productos?crear=1. Category links apply their filter; stock-zero links mean exactly zero, not low stock."
+          },
+          {
+            "title": "Dashboard composition",
+            "text": "Use a continuous metrics band, then all categories: Herramientas, Consumibles and Repuestos. On mobile, arrange metrics in a 2×2 grid."
+          }
+        ],
+        "id": "brand-page-42",
+        "layout": "applications"
+      },
+      {
+        "title": "Favicon",
+        "summary": "Design study: derive the favicon and application icon from the same canonical three-stroke SVG. Use a white support surface and no lettering, badges or alternate initials.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario del taller"
+          },
+          {
+            "title": "Browser treatment",
+            "text": "Pair the compact mark with a Spanish document title such as Productos | Almacén Nube. Keep the mark distinct from navigation controls."
+          }
+        ],
+        "id": "brand-page-43",
+        "layout": "logo"
+      },
+      {
+        "title": "Stationery",
+        "summary": "Design study: use a small upper-left lockup, an aligned document title and quiet footer. Printed records are reference material, not proof of current database values.",
+        "examples": [
+          {
+            "title": "Resumen de inventario",
+            "text": "Almacén Nube · Documento de referencia. Consulta la aplicación para ver los datos actuales."
+          },
+          {
+            "title": "Page structure",
+            "text": "Use a single column, petrol section rules and tabular figures. Keep logo space separate from table headings."
+          }
+        ],
+        "id": "brand-page-44",
+        "layout": "applications"
+      },
+      {
+        "title": "Project Cards",
+        "summary": "Design study: adapt business cards into project identification cards. Keep the name and purpose; omit invented people, job titles, phone numbers and addresses.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Inventario interno para un taller ficticio."
+          },
+          {
+            "title": "Two-sided layout",
+            "text": "Front: supported symbol and name. Back: Dashboard · Productos, with one short purpose statement and no unverified destination."
+          }
+        ],
+        "id": "brand-page-45",
+        "layout": "applications"
+      },
+      {
+        "title": "Product Reference Card",
+        "summary": "Design study: replace a gift card with a non-transactional product reference. Use the register's field order and clearly identify demonstration data; no balance, credit or redemption language.",
+        "examples": [
+          {
+            "title": "Cola para madera",
+            "text": "Categoría: Consumibles · Stock: 6 · Precio demostrativo: 7,20 €"
+          },
+          {
+            "title": "Card composition",
+            "text": "Make the product name the heading, stack the remaining fields below and place Almacén Nube in a small footer."
+          }
+        ],
+        "id": "brand-page-46",
+        "layout": "applications"
+      },
+      {
+        "title": "Folder Seal",
+        "summary": "Design study: use the mark as a small document-folder label, not a shipping seal or certification badge. Preserve the white support surface and all three strokes.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Documentación de inventario"
+          },
+          {
+            "title": "Label treatment",
+            "text": "Center the symbol on a white square label. If a caption is needed, place it outside the mark's clear space; omit approval claims."
+          }
+        ],
+        "id": "brand-page-47",
+        "layout": "applications"
+      },
+      {
+        "title": "In-app Help",
+        "summary": "Design study: keep help beside the affected task within the two planned pages. Name the problem, preserve entered values and offer the relevant next action without inventing support channels.",
+        "examples": [
+          {
+            "title": "Revisa el precio",
+            "text": "Introduce un importe igual o mayor que cero con un máximo de dos decimales. Puedes usar coma o punto decimal."
+          },
+          {
+            "title": "Este producto ha cambiado",
+            "text": "Compara tu borrador con los valores actuales antes de guardar. Recargar datos · Reconciliar cambios"
+          },
+          {
+            "title": "No se pudo iniciar la sesión",
+            "text": "Las cookies están bloqueadas. Conservamos el formulario. Reintentar · Abrir la aplicación directamente"
+          }
+        ],
+        "id": "brand-page-48",
+        "layout": "applications"
+      },
+      {
+        "title": "Thank you",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "title": "Almacén Nube",
+            "text": "Nombres claros. Existencias visibles. Acciones concretas."
+          },
+          {
+            "title": "Source list",
+            "text": "Supplied Almacén Nube plan, palette, branding configuration and IBM Plex Sans font resources. Original three-stroke symbol created for this guide."
+          },
+          {
+            "title": "Handoff rule",
+            "text": "Keep branding centralized and both Views editable. Analytics covers confirmed creation and editing only; do not imply delivery without an available integration."
+          }
+        ],
+        "id": "brand-page-49",
+        "layout": "cover"
+      }
+    ]
+  }
+}

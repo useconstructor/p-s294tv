@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
+  experimental: {
+    // Keep request-time route caching in memory so production artifacts stay immutable.
+    isrFlushToDisk: false,
   },
 };
 
