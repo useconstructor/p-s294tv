@@ -5,22 +5,22 @@
       "x": 0,
       "y": 0
     },
-    "productos": {
-      "x": 620,
-      "y": 0
+    "nube_operaciones": {
+      "x": 925,
+      "y": 866.6666666666667
     },
     "nube_sesiones": {
       "x": 0,
       "y": 760
     },
-    "nube_operaciones": {
+    "productos": {
       "x": 620,
-      "y": 760
+      "y": 0
     }
   },
   "viewport": {
-    "x": 40,
-    "y": 40,
-    "zoom": 0.5
+    "x": -205,
+    "y": -54.39999999999998,
+    "zoom": 0.6
   }
 }
