@@ -42,6 +42,20 @@
         "type": "workflow",
         "target": "consultar_resumen"
       }
+    },
+    {
+      "path": "/productos",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "styles": {
+        "color": "#E0F0EC"
+      }
+    },
+    {
+      "path": "/productos",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)",
+      "styles": {
+        "color": "#E0F0EC"
+      }
     }
   ]
 }
