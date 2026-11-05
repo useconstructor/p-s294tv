@@ -14,21 +14,32 @@ const plex = localFont({
 });
 import branding from "@/branding.json";
 import "./globals.css";
-export const metadata: Metadata = {
+// Constructor: server-rendered website settings
+import constructorWebsiteSettings from "../public/constructor-settings.json";
+type constructorWebsiteSettingsMetadataValue<T> = Omit<NonNullable<T>, 'title' | 'description'> & { title: string; description: string };
+function constructorWebsiteSettingsMetadata<T extends object | null | undefined>(value: PromiseLike<T>): Promise<constructorWebsiteSettingsMetadataValue<T>>;
+function constructorWebsiteSettingsMetadata<T extends object | null | undefined>(value: T): constructorWebsiteSettingsMetadataValue<T>;
+function constructorWebsiteSettingsMetadata(value: object | null | undefined | PromiseLike<object>): object | Promise<object> {
+  if (value && 'then' in value && typeof value.then === 'function') return Promise.resolve(value).then(original => constructorWebsiteSettingsMetadata(original));
+  return { ...value, title: constructorWebsiteSettings.title, description: constructorWebsiteSettings.description };
+}
+
+
+export const metadata: Metadata = constructorWebsiteSettingsMetadata(({
   title: {
     default: `Inventario del taller | ${branding.logoText}`,
     template: `%s | ${branding.logoText}`,
   },
   description:
     "Inventario interno de un taller ficticio. Consulta existencias y gestiona productos.",
-};
+}));
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
+    <html lang={constructorWebsiteSettings.language}>
       <body
         className={plex.variable}
         style={
@@ -49,7 +60,7 @@ export default function RootLayout({
           process.env.NEXT_PUBLIC_PROJECT_ID && (
             <script src={"https://constructor-api-git-fix-two-projects-ai-p-5c3f22-useconstructor.vercel.app/v1/projects/P-S294TV/analytics/script.js"} defer></script>
           )}
-      <script src="/constructor-editor.js" defer></script></body>
+      <script src="/constructor-editor.js" defer></script><script src="/constructor-brand-identity.js" defer></script><script src="/constructor-settings.js" defer></script></body>
     </html>
   );
 }

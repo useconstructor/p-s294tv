@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "days": "7",
+  "metric": "pageviews",
+  "breakdowns": [
+    "path",
+    "device",
+    "event_name"
+  ]
+}

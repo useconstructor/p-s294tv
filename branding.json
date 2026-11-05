@@ -1,7 +1,15 @@
 {
-  "tone": "professional",
+  "primaryColor": "#135F6D",
+  "secondaryColor": "#E0F0EC",
+  "backgroundColor": "#EDF5F4",
+  "textColor": "#153238",
+  "accentColor": "#1B737B",
+  "fontHeading": "IBM Plex Sans",
   "fontBody": "IBM Plex Sans",
+  "borderRadius": "12px",
   "logoText": "Almacén Nube",
+  "tone": "professional",
+  "logoImageUrl": null,
   "brandbook": {
     "motif": "Tres trazos apilados derivados de las líneas de un registro de existencias. La marca petróleo de la fila activa prolonga esta lógica de registro y vincula el producto con su editor; no convertir el motivo en patrón decorativo.",
     "pages": [
@@ -913,13 +921,5 @@
     "positioning": "Herramienta interna de inventario para un taller ficticio: nombres, existencias y acciones claras, con registros persistidos y confirmaciones fiables. No es una marca comercial abierta al público.",
     "researchStatus": "not_requested",
     "tokenSemanticsVersion": 1
-  },
-  "textColor": "#172F35",
-  "accentColor": "#125563",
-  "fontHeading": "IBM Plex Sans",
-  "borderRadius": "0.25rem",
-  "logoImageUrl": null,
-  "primaryColor": "#125563",
-  "secondaryColor": "#FFFFFF",
-  "backgroundColor": "#F4F7F7"
+  }
 }
