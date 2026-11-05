@@ -19,8 +19,8 @@
     },
     {
       "id": "consultar_resumen",
-      "name": "Consultar métricas",
-      "description": "Lectura del inventario de la sesión actual.",
+      "name": "Consultar métricas de Nube",
+      "description": "Consultar totales de productos, existencias y valor del inventario de la sesión actual.",
       "endpoint": "/api/resumen",
       "method": "GET",
       "input": {}
