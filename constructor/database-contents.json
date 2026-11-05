@@ -9,6 +9,21 @@
       ],
       "hidden": [],
       "pageSize": 25
+    },
+    "productos": {
+      "columns": [
+        "propietario",
+        "nombre",
+        "stock",
+        "id",
+        "categoria_id",
+        "precio_centimos",
+        "version",
+        "created_at",
+        "updated_at"
+      ],
+      "hidden": [],
+      "pageSize": 25
     }
   }
 }
