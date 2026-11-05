@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "positions": {
+    "categorias": {
+      "x": 0,
+      "y": 0
+    },
+    "productos": {
+      "x": 620,
+      "y": 0
+    },
+    "nube_sesiones": {
+      "x": 0,
+      "y": 760
+    },
+    "nube_operaciones": {
+      "x": 620,
+      "y": 760
+    }
+  },
+  "viewport": {
+    "x": 40,
+    "y": 40,
+    "zoom": 0.5
+  }
+}
