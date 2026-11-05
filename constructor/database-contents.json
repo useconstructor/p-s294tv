@@ -4,8 +4,8 @@
     "categorias": {
       "columns": [
         "nombre",
-        "id",
-        "propietario"
+        "propietario",
+        "id"
       ],
       "hidden": [],
       "pageSize": 25
