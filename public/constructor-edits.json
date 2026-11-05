@@ -1,1 +1,47 @@
-{"version":1,"edits":[]}
+{
+  "version": 1,
+  "edits": [
+    {
+      "path": "/",
+      "selector": "body:nth-of-type(1)",
+      "styles": {
+        "backgroundColor": "#EDF5F4"
+      }
+    },
+    {
+      "path": "/",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1)",
+      "styles": {
+        "backgroundColor": "#E0F0EC",
+        "padding": "20px",
+        "borderRadius": "12px"
+      }
+    },
+    {
+      "path": "/productos",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1)",
+      "styles": {
+        "backgroundColor": "#153238",
+        "color": "#FFFFFF",
+        "padding": "20px",
+        "borderRadius": "4px"
+      }
+    },
+    {
+      "path": "/productos",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+      "styles": {
+        "color": "#FFFFFF"
+      }
+    },
+    {
+      "path": "/",
+      "selector": "body:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Consultar métricas",
+      "action": {
+        "type": "workflow",
+        "target": "consultar_resumen"
+      }
+    }
+  ]
+}
